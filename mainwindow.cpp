@@ -37,6 +37,7 @@ void MainWindow::slotButton2()
 
 void MainWindow::slotButton3()
 {
+    // параметр 3 соответствует нажатию третьей кнопки
     emit signalFromButton(3);
 }
 
