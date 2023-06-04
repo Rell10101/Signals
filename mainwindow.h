@@ -17,6 +17,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    // Сигнал(signal) - метод вызываемый во время события.
+    // Слот(slot) - метод принимающий сигнал.
+
 signals:
         // сигнал для передачи номера нажатой кнопки
         void signalFromButton(int button_id);

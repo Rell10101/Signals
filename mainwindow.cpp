@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // связываем кнопки с соответствующими слотами
     // с использованием указателей на методы
-    QObject::connect(ui->Button_1, &QPushButton::clicked, this, &MainWindow::slotButton1); // при нажатии на первую кнопку 
+    QObject::connect(ui->Button_1, &QPushButton::clicked, this, &MainWindow::slotButton1); // при нажатии на первую кнопку срабатывает сигнал и вызывается слот
     QObject::connect(ui->Button_2, &QPushButton::clicked, this, &MainWindow::slotButton2);
     QObject::connect(ui->Button_3 , &QPushButton::clicked, this, &MainWindow::slotButton3);
 
